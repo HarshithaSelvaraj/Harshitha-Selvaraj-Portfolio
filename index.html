@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title> Harshitha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a683fb933a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Digital Marketer | SEO & Social Media Expert</p>
+                <h1> Hi, I'm <span>Harshitha </span><br> I Help Brands Grow & Get Noticed</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png" alt="headshot 2">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p> <br> Marketing is my Eras Tour - every brand has a story, and I make sure it’s unforgettable. <br> <br>Just like Taylor Swift reinvents herself with every album, I help brands evolve, craft their unique voice, and create campaigns that resonate, engage, and drive real impact.<br> <br> Over the years, I’ve worked across B2B & B2C industries, from tech giants to fashion, entertainment, and hospitality brands. Whether it's boosting organic traffic by 200%, driving a 35% increase in sales through viral content, or leading social media strategies that create loyal communities, I blend data-driven strategies with creativity - because great marketing isn’t just seen, it’s felt. <br> <br>Currently, I’m on my own “1989 Era” - actively seeking exciting new opportunities while taking on freelance projects that push creative boundaries. <br> <br> Fun fact: I built this entire website from scratch - no CMS, no shortcuts. Just pure HTML, CSS, and JavaScript - because great marketing, like great coding, is all about structure, creativity, and execution.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>SEO & Visibility Optimization</span><br>  On-Page SEO & Off-Page SEO | Technical SEO | Keyword research | Google Analytics 4</li>
+                            <li><span>Content Strategy & Brand Storytelling</span><br> Blogging | Copywriting | Visual storytelling | Campaign Planning | Content Optimization</li>
+                            <li><span>Social Media Growth & Engagement</span><br> Community Building | Trend Analysis |  Influencer Marketing | Paid Ads   </li>
+                            <li><span>Performance Marketing & Advertising</span><br> Google Ads | Meta Ads (Facebook & Instagram)|  LinkedIn Ads | A/B Testing | Retargeting </li>
+                            <li><span>Data & Marketing Automation</span><br> Web performance | CRM | Email Automation | Predictive Analysis | Data Visualisation </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025</span><br>Digital Marketing Specialist at Pinnaxel</li>
+                            <li><span>2023</span><br>Team Leader for Digital Marketing Project at Geared Up Cycles Ltd </li>
+                            <li><span>2021</span><br>Creative Strategist & Marketing Analyst at Koaka Collective</li>
+                            <li><span>2020 </span><br>Content Creator at Tubelight Mediaworks</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education"> 
+                        <ul>
+                            <li><span>2023</span><br>MSc Digital Marketing and Channel Management (CIM Accredited) from University of Surrey</li>
+                            <li><span>2020</span><br>BSc Electronic Media from University of Madras (MOP Vaishnav College for Woman) </li>
+                            <li><span>2017</span><br>MLM Mamallan Matriculation Higher Secondary School</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-searchengin"></i>
+                <h2>SEO & Paid Search (SEM)</h2>
+                <p> <br> Rank higher, get found, and drive traffic that converts.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Content Strategy & Copywriting</h2>
+                <p> <br> Words that inform, inspire, and sell. </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-icons"></i>
+                <h2>Social Media Strategy & Ads</h2>
+                <p> <br> Engagement that turns followers into customers.</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-web-awesome"></i>
+                <h2>Website & UX Optimization</h2>
+                <p> <br> Faster, smoother, and optimized for success.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <h2>Email Marketing & Automation</h2>
+                <p> <br> Smart email strategies that bring results.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-square-poll-vertical"></i>
+                <h2>Marketing Analytics & Insights</h2>
+                <p> <br> Data-driven decisions for smarter marketing. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <!-- Visible Projects -->
+            <div class="work">
+                <a href="pdfs/work-1.pdf" target="_blank">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3> 🔥 From Meme to Marketing Magic</h3><br>
+                    <p> How a viral joke turned into a 35% sales boost for a café.</p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div>
+            <div class="work">
+                <a href="pdfs/work-2.pdf" target="_blank">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3> 🌍 Turning a Small Brand into a Global Sensation</h3><br>
+                    <p> How strategic marketing made an indie fashion brand go international. </p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div>
+            <div class="work">
+                <a href="pdfs/work-3.pdf" target="_blank">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3> 🏆 Happy Teams = Thriving Business</h3><br>
+                    <p> How internal marketing boosted workplace engagement and culture. </p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div>
+            <!-- Hidden Projects -->
+            <div class="work hidden-work">
+                <a href="pdfs/work-4.pdf" target="_blank">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3> 🎁 The Gift That Keeps Giving</h3> <br>
+                    <p>A smart campaign that doubled app subscriptions during lockdown. </p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div>
+            <div class="work hidden-work">
+                <a href="pdfs/work-5.pdf" target="_blank">
+                <img src="images/work-5.png">
+                <div class="layer">
+                    <h3> 🐶 From Pet to Brand Ambassador </h3> <br>
+                    <p> Watson the Retriever’s journey from store pet to marketing icon.</p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div>
+            <div class="work hidden-work">
+                <a href="pdfs/work-6.pdf" target="_blank">
+                <img src="images/work-6.png">
+                <div class="layer">
+                    <h3> Marketing with a Message</h3><br>
+                    <p> Turning "zero-sugar drinks" into a "lifestyle movement" with purpose-driven branding.</p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div> 
+            <div class="work hidden-work">
+                <a href="pdfs/work-7.pdf" target="_blank">
+                <img src="images/work-7.png">
+                <div class="layer">
+                    <h3> Project C Foundation</h3><br>
+                    <p> Mental health wellness and awareness</p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div> 
+            <div class="work hidden-work">
+                <a href="pdfs/work-8.pdf" target="_blank">
+                <img src="images/work-8.png">
+                <div class="layer">
+                    <h3> 3D Model Design</h3><br>
+                    <p> Irregular art</p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div> 
+            <div class="work hidden-work">
+                <a href="pdfs/work-9.pdf" target="_blank">
+                <img src="images/work-9.png">
+                <div class="layer">
+                    <h3> Electronic Media</h3><br>
+                    <p> Radio, Television, Multimedia</p>
+                    <i class="fas fa-external-link-alt"></i>
+                </div>
+                </a>
+            </div> 
+    </div>
+         <!-- See More Button -->
+        <button class="btn" id="see-more-btn" onclick="toggleProjects()">See More </button>
+    </div>
+</div>
+<!-- JavaScript -->
+    <script> 
+    function toggleProjects(){
+        const hiddenWorks = document.querySelectorAll(".hidden-work");
+    const button = document.getElementById("see-more-btn");
+
+    hiddenWorks.forEach(work => {
+        work.style.display = (work.style.display === "none" ? "block" : "none");
+    });
+
+    button.textContent = (button.textContent === "See More" ? "See Less" : "See More");
+}
+    </script>
+
+ 
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-location-dot"></i> United Kingdom</p>
+                <p><i class="fa-solid fa-globe"></i>+44 77xxxxxx60</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/harshitha-selvaraj/"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:harshee99@gmail.com"> <i class="fa-solid fa-envelope"></i></a>
+                    <a href="mailto:harshee99@gmail.com"> <i class="fa-regular fa-id-badge"></i> </a>
+                </div>
+                <a href="Images/Harshitha Selvaraj CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> ©  2025 Harshitha Selvaraj <i class="fa-regular fa-heart"></i></p>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+
+<script> 
+
+var sidemenu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx228HxDI-mrcV_ad1Vd4F_N2zzwhqr8AEP5gkSBR3FckLLusXHC81BiuR4GUTfD_Mh/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset ()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
