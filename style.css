@@ -175,7 +175,8 @@ nav ul li a:hover::after{
     margin-top: 20px;
     display: inline-block;
 }
-.services-list div:hover{
+.services-list div:hover,
+.services-list div:active{
     background: #ff004f ;
     transform: translateY(-10px);
 }
@@ -245,10 +246,12 @@ nav ul li a:hover::after{
     text-align: center;
 }
 
-.work:hover img{
+.work:hover img,
+.work:active img{
     transform: scale(1.1);
 }
-.work:hover .layer{
+.work:hover .layer,
+.work:active .layer{
     height: 100%;
 }
 .hidden-work {
@@ -276,7 +279,8 @@ nav ul li a:hover::after{
     background-color: transparent;
     cursor: pointer;
 }
-.btn:hover{
+.btn:hover,
+.btn:active{
     background: #ff004f;
     transform: scale(1.05);
     box-shadow: 0px 4px 10px rgba(255, 0, 79, 0.3);
@@ -308,7 +312,8 @@ nav ul li a:hover::after{
     display: inline-block;
     transition: transform 0.5s;
 }
-.social-icons a:hover{
+.social-icons a:hover,
+.social-icons a:active{
     color: #ff004f;
     transform: translateY(-5px);
 }
