@@ -104,7 +104,32 @@ nav ul li a:hover::after{
     0%   { transform: translateX(0%); }
     100% { transform: translateX(-50%); }
   }
-
+  .cert-badges {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0;
+    animation: fadeIn 1.2s ease-in;
+  }
+  .cert-badges img {
+    height: 90px;  /* adjust if needed */
+    width: auto;
+    object-fit: contain;
+    margin: 0 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+  }
+  .cert-badges img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(255, 1, 86, 0.601);
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 #about{
     padding: 80px 0;
     color: #ababab;
