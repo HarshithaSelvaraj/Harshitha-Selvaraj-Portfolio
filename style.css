@@ -456,11 +456,28 @@ nav .fa-solid{
         background-attachment: scroll;
     }
     .header-text{
-        margin-top: 80px;
+        margin-top: 60px;
         font-size: 16px;
+        padding: 0 20px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: left;
+    }
+    .header-text p {
+        font-size: 18px; /* Added to reduce the size of the intro paragraph */
+        line-height: 1.4;
+    }
+    .cert-badges {
+        flex-direction: column; /* Stacks badges vertically */
+        align-items: flex-start;    /* Centers them horizontally */
+        gap: 10px;              /* Adds some space between stacked badges */
+        margin-top: 20px;       /* Pushes badges down a bit from the text */
+    }
+    .cert-badges img {
+        height: 55px;  
+        width: auto;
     }
     nav .fa-solid{
         display: block;
@@ -489,6 +506,7 @@ nav .fa-solid{
     }
     .sub-title{
         font-size: 40px;
+        text-align: center;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -504,13 +522,19 @@ nav .fa-solid{
         margin-right: 20px;
     }
     .services-list div i{
-        font-size: 60px;
+        font-size: 50px;
     }
     #see-more-btn {
         padding: 16px 60px;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+        text-align: center;
+    }
+    .social-icons {
+        display: flex; /* Use flexbox to center the icons */
+        justify-content: center;
+        margin-top: 30px;
     }
     .copyright{
         font-size: 14px;
